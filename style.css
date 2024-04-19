@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+div#logo > img {
+  height: 130px;
+    border-radius: 50%;
+}
+#container {
+    justify-content: center;
+    display: flex;
+}
+div#redes {
+    flex-direction: column;
+    display: flex;
+    transition: 1s;
+    flex: auto;
+    float: right;
+}
+
+div#redes > a > img {
+    border-radius: 50%;
+    height: 50px;
+    float: right;
+    justify-content: end;
+    flex-direction: column;
+    display: flex;
+    padding: 7px;
+    width: 50px;
+}
+#img1:hover {
+transform: scale(1.3);
+transition: .5s;
+}
+#img2:hover {
+    transform: scale(1.3);
+transition: .5s;
+}
+body::-webkit-scrollbar {
+    width: 0px;
+}
+body {
+    background-color: rgba(95, 95, 196, 0.767);
+}
+footer {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#p {
+    text-align: center;
+}
